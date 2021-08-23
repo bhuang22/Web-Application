@@ -1,0 +1,13 @@
+In this homework, we create  a sample site that host index.html, style.css 
+and function.js. before we send the request to the server, we use the type check operation to 
+loop through the specific directory and determine what file we want to send through the TCP socket. 
+after knowing the file type, we open/read the files and encode them. after finishing the encoding, 
+we can send files that contain the cooresponding response,length, MIME type to the localhost. 
+
+
+
+sample site (index.html) is stored in  the static folder
+
+template html(template.html) stores in  images folder
+
+bonus html (bonus.html) stores in bonus folder

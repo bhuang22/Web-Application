@@ -1,0 +1,28 @@
+POST /comment HTTP/1.1
+Host: localhost:8000
+Connection: keep-alive
+Content-Length: 229
+Cache-Control: max-age=0
+Upgrade-Insecure-Requests: 1
+Origin: http://localhost:8000
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundaryjYAVi2canWjU5RRX
+User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/88.0.4324.104 Safari/537.36
+Accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9
+Sec-Fetch-Site: same-origin
+Sec-Fetch-Mode: navigate
+Sec-Fetch-User: ?1
+Sec-Fetch-Dest: document
+Referer: http://localhost:8000/
+Accept-Encoding: gzip, deflate, br
+Accept-Language: en-US,en;q=0.9,zh-CN;q=0.8,zh;q=0.7
+Cookie: _xsrf=2|6964723c|58fecbeb0cb5acea8b5f760fb2e14d92|1618154309; username-localhost-8888="2|1:0|10:1618277906|23:username-localhost-8888|44:ZTEwODQyZDMyYzExNDQyNzk4NmFhOTllZGI3NjQ1ZGE=|61dfdda46984fd2711b119cdfef20de41c1413f5fd754b2102c60f7f1e2d46e0"; id=X6kAwpgW29M
+
+------WebKitFormBoundaryjYAVi2canWjU5RRX
+Content-Disposition: form-data; name="name"
+
+
+------WebKitFormBoundaryjYAVi2canWjU5RRX
+Content-Disposition: form-data; name="comment"
+
+
+------WebKitFormBoundaryjYAVi2canWjU5RRX--

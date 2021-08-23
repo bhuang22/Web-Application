@@ -1,0 +1,10 @@
+In this homework, we are working on the websocket handshake, so we need to upgrade the 
+tcp socket to the websocket connection.  AFTER we upgrade to websocket, we can use the given js code
+to send the json string to the server. since we already build the hand shake, the server will always keep
+waiting for the data the client send. the problem is we also want to receive the server response and have 
+the data back. thus, we need to mask the frame, demask. because of that, we can receive the server response.
+since we get the data back, we can store the received data in the local data structure as history. also, we can
+store the data in the mysql database. This would be more efficient since we can store the data permanently.
+
+
+

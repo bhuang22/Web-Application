@@ -1,0 +1,9 @@
+In this homework,  we create the html form , and read the data after the header and body
+of the file is sent. after we get the data, we store the data into the txt file. if the user
+inputs any text in the html form, the data will be read from the local txt file and sent the stored
+data to the server in order to display to the users. also, we use the same way to do the upload file 
+. we first get the data , split them into different parts, and parse the datas into specific type.
+Then, we send the data through the server.
+
+
+

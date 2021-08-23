@@ -1,0 +1,9 @@
+In this homework, we create a docker file in order to build and run the image,
+. after creating the image, we use the data variable to receive the data and store
+in it. since the data store in the data variable are byte like object, we need to convert these
+date into string, and split the string line by line using  on the new line(\r\n). by doing that,
+these data act like an array, and we split the each line based on the space character. Then, we can 
+distinguish the requestd type, requested path and the requested version of these data. because we already
+obtain the requested type and the requested path , we can use these two elements to dintinguish if a request that
+we receives is what we want. if a request a request is received for any path other than "/hello" or "/hi", it returns 404
+response. otherwise, we can receive  200 or 301 resopnse.

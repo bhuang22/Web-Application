@@ -1,0 +1,5 @@
+In this homework, we use cookie to check the status and we utilze the mysql database to store the user's
+username, password(hashed and salted) and token. AFTER WE LOG IN THE user, we can use the token and show
+if they are logged in
+
+

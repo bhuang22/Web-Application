@@ -1,0 +1,24 @@
+version: "3.3"
+services:
+  db:
+    image: mysql:5.7
+    container_name: faceNote_mysql
+    volumes:
+      - db_file:/mysql
+    restart: always
+    environment:
+      MYSQL_ROOT_PASSWORD: Hbcheng?51
+      MYSQL_DATABASE: userdb
+
+  app:
+    build: .
+    container_name: faceNote
+    links:
+      - db
+    environment:
+      WAIT_HOSTS: db:3306
+      MYSQL_PASSWORD: Hbcheng?51
+    ports:
+      - '8080:8000'
+volumes:
+  db_file: {}
