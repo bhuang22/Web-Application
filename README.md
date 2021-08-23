@@ -1,5 +1,5 @@
 # Web-Application
-Web Application Project
+(Individual Project)Web Application Project
 
 In this Project, it contains five parts:
 
